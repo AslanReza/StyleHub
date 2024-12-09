@@ -16,3 +16,18 @@ body {
 pre {
   @apply bg-neutral-700;
 }
+@layer base {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #f5961d;
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+}
